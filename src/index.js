@@ -20,6 +20,4 @@ function Cifrar() {
   console.log(txt);
   cifrado.value = txt;
 
-
-
 }
