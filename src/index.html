@@ -9,33 +9,41 @@
   <body>
     <div id="root"></div>
     
-    <div class="box">
-    <H2>Ingrese Mensaje </H2>
+    
+    
     <form>
-      <TEXTAREA  rows="10" cols="50" id="mensaje" placeholder="Ingrese Mensaje aqui."></TEXTAREA><BR>
-        <BR>
-         <input type="number" id="llave" placeholder="clave" />  
-         <BR> 
-         <BR> 
-        <button id="cifrar" type="button">Cifrar</button>  <INPUT type="reset" value="Limpiar">
-        </form>
-      </div>
+     
+        <div class="box">
+        <H2>Ingrese Mensaje </H2>
+        <TEXTAREA class="TEXTAREA" rows="10" cols="50" id="mensaje" placeholder="Ingrese Mensaje aqui."></TEXTAREA><BR>
+        </div>
 
-      <div class="box"> 
-    <form>
+       
+
+         <div class="box"> 
          <H2>Mensaje Cifrado</H2>    
-        <TEXTAREA rows="10" cols="50" id="msncifrado"></TEXTAREA><BR>   
-          <BR>    
-          <BR> 
-        <button id="descifrar" type="button">Descifrar</button> 
-      </div>
+         <TEXTAREA class="TEXTAREA" rows="10" cols="50" id="msncifrado"></TEXTAREA><BR> 
+         </div>  
 
-      <div class="box">
-        <H2>Mensaje DesCifrado</H2>    
-        <TEXTAREA rows="10" cols="50" id="msnDescifrado"></TEXTAREA><BR>       
-    </form>
+          
+         <div class="box"> 
+         <H2>Mensaje DesCifrado</H2>    
+         <TEXTAREA class="TEXTAREA" rows="10" cols="50" id="msnDescifrado"></TEXTAREA><BR>     
+         </div>
 
-  </div >
+          <div    class="botones">
+          <input  type="number" id="llave" placeholder="clave" /> 
+          <button class="button" id="cifrar" type="button">Cifrar</button>  
+          <button class="button" id="descifrar" type="button">Descifrar</button>
+          <input  class="button" type="reset" value="Limpiar"> 
+          </div>
+   
+        </form>
+      
+
+    
+
+      
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
