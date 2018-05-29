@@ -22,7 +22,7 @@ function Cifrar() {
      txt = txt + String.fromCharCode(asciir);
   
   }
-  console.log(txt);
+
   cifrado.value = txt;
 
 }

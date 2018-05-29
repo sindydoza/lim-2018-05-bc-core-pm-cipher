@@ -1,0 +1,13 @@
+html {
+    background-color: rgba(228, 226, 226, 0.822);
+  }
+
+  .box {
+    float: left;
+    padding-left: 10px;
+  
+}
+
+h2 {
+    font-family: sans-serif;
+}
