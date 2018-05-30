@@ -12,41 +12,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
  document.getElementById('descifrar').addEventListener('click',() =>{
-  var textoC= document.getElementById('msncifrado').value;
-  var claveD = parseInt(document.getElementById('llave').value);
-  var Descifrado = document.getElementById('msnDescifrado');
-  Descifrado.value = cipher.decode(claveD, textoC);
+   var textoC= document.getElementById('msncifrado').value;
+   var claveD = parseInt(document.getElementById('llave').value);
+   var Descifrado = document.getElementById('msnDescifrado');
+   Descifrado.value = cipher.decode(claveD, textoC);
 
  }
 );
 
  
 
-/*function Cifrar() { 
- 
- 
-
-  var txt = '';
-  for (i=0; i <= texto.length; i++){
-     ascii=(texto.charCodeAt(i));
-     asciir= ascii+ clave
-     txt = txt + String.fromCharCode(asciir);
-  
-  }
-
-  cifrado.value = txt;
-
-}
-*/
 
