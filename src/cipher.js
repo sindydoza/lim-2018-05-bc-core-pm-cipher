@@ -4,7 +4,7 @@ window.cipher = {
   encode:(offset, string) => {
     var txt = '';
     var asciir = '' ;
-    var ascii=''
+    var ascii='';
     for (let i=0; i <= string.length; i++){
        ascii=(string.charCodeAt(i));
        if (ascii >= 65 &&  ascii <= 90 ){
@@ -13,6 +13,10 @@ window.cipher = {
        }
        else if (ascii >= 97 &&  ascii <= 122 ){
         asciir = (ascii - 97 + offset) % 26 +97
+        txt = txt + String.fromCharCode(asciir);
+       
+       } else {
+        asciir = ascii;
         txt = txt + String.fromCharCode(asciir);
        }
     }
@@ -35,6 +39,9 @@ window.cipher = {
           txtD = txtD + String.fromCharCode(asciir);
          } else if (ascii >= 97 &&  ascii <= 122 ) {
           asciir = (ascii - 122 -  offset) % 26 + 122
+          txtD = txtD + String.fromCharCode(asciir);
+         } else {
+          asciir = ascii;
           txtD = txtD + String.fromCharCode(asciir);
          }
       }
