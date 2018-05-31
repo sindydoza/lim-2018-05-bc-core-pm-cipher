@@ -1,37 +1,56 @@
+
 html {
-    background-color: rgba(228, 226, 226, 0.822);
+    background-color:#f2f4f6;
+    font-family: proxima-nova,sans-serif
+  
+  }
+body{
+    margin: 0%;
+}
+
+  header {
+         background-image: "img\images.jpg";
+         width: 100%;
+         height: auto;
+        
   }
 
-  .box {
+ h1{
+     margin: 0%;
+     
+ }
+  box {
     margin: 0 auto;
-    width: 100%;
-    float: left;
-    padding-left: 10px; 
+    align-content: center;
+   
+}
+
+h3{
+    color: #6a7c8f
 }
 
 .botones {
     float: left;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
-.box .textarea {
+box .textarea {
       
 	border:1px solid #f1f3f5;
 }
 
-h2 {
-    font-family: sans-serif;
-}
+
 
 .button {
-    background-color: rgb(72, 108, 206);
+    background-color: #ff8200;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color:#fff;
+    padding: 10px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
