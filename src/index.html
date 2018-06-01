@@ -37,7 +37,7 @@
          </div>
 
           <div    class="botones">
-          <input  type="number" id="llave" placeholder="clave" /> 
+          <input  type="number" id="llave" placeholder="clave"  min="0" max="" onkeypress="return event.charCode >= 48" /> 
           <button class="button" id="cifrar" type="button">Cifrar</button>  
           <button class="button" id="descifrar" type="button">Descifrar</button>
           <input  class="button" type="reset" value="Limpiar"> 

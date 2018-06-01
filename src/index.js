@@ -12,6 +12,7 @@
 
 
 
+
  document.getElementById('descifrar').addEventListener('click',() =>{
    var textoC= document.getElementById('msncifrado').value;
    var claveD = parseInt(document.getElementById('llave').value);
