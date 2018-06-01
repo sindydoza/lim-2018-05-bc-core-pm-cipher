@@ -8,27 +8,32 @@
   
   <body>
     <div id="root"></div>
-    
+    <header >
+      <h1> CIFRADO CESAR</h1>
+    </header>
+    <br>
+    <br>
+    <p>El cifrado césar consiste en intercambiar las letras de un mensaje un número de posiciones determinadas por una clave.</p>
     
     
     <form>
      
         <div class="box">
         <h2>Ingrese Mensaje</h2>
-        <textarea class="textarea" rows="10" cols="50" id="mensaje" placeholder="Ingrese Mensaje aqui."></textarea><br>
+        <textarea class="textarea" rows="9" cols="70" id="mensaje" placeholder="Ingrese Mensaje aqui."></textarea><br>
         </div>
 
        
 
          <div class="box"> 
          <h2>Mensaje Cifrado</h2>    
-         <textarea class="textarea" rows="10" cols="50" id="msncifrado"></textarea><br> 
+         <textarea class="textarea" rows="9" cols="70" id="msncifrado"></textarea><br> 
          </div>  
 
           
          <div class="box"> 
          <h2>Mensaje DesCifrado</h2>    
-         <textarea class="textarea" rows="10" cols="50" id="msnDescifrado"></textarea><br>     
+         <textarea class="textarea" rows="9" cols="70" id="msnDescifrado"></textarea><br>     
          </div>
 
           <div    class="botones">
@@ -39,9 +44,24 @@
           </div>
    
         </form>
-      
+        <h2 > Intrucciones de uso</h2> 
+        
+        <div>
+<div class="bloque">
+  <h3><span class="blue">1</span></h3>
+  <p>Ingresar un mensaje para Cifrar o Descifrar</p>
+</div>
 
-    
+<div class="bloque">
+  <h3><span class="purpura">2</span></h3>
+  <p>Ingresar un un numero de llave, cualquier número.</p>
+</div>
+   
+<div class="bloque">
+<h3><span class="verde">3</span></h3>
+<p>Clic en el Boton Cifrar o Descifrar.</p>
+</div>
+</div>
 
       
     <script src="cipher.js"></script>
