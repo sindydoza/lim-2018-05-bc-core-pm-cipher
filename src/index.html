@@ -12,65 +12,62 @@
     <header >
       <h1> CIFRADO CESAR</h1>
     </header>
-    <br>
-    <br>
-    <p>El cifrado césar consiste en intercambiar las letras de un mensaje un número de posiciones determinadas por una clave.</p>
+          <br>
+          <br>
+          <p>El cifrado césar consiste en intercambiar las letras de un mensaje un número de posiciones determinadas por una clave.</p>
     
-    
+
     <form>
      
         <div class="box">
-        <h2>Ingrese Mensaje para Cifrar</h2>
-        <textarea class="textarea" id="mensaje" placeholder="Ingrese Mensaje aqui."></textarea><br>
+            <h2>Ingrese Mensaje</h2>
+            <textarea class="textarea" rows="11" cols="70" id="mensaje" placeholder="Ingrese Mensaje aqui."></textarea><br>
         </div>
 
-       
-
-         <div class="box"> 
-         <h2> Mensaje Cifrado </h2>    
-         <textarea class="textarea"  id="msncifrado" placeholder="Aqui se muestra tu mensaje Cifrado, tambien puedes ingresar un mensaje cfirado que quieras descrifar."></textarea><br> 
-         </div>  
+        <div class="box"> 
+             <h2>Mensaje Cifrado</h2>    
+             <textarea class="textarea" rows="11" cols="70" id="msncifrado"></textarea><br> 
+        </div>  
 
           
-         <div class="box"> 
-         <h2>Mensaje DesCifrado</h2>    
-         <textarea class="textarea"  id="msnDescifrado"></textarea><br>     
-         </div>
+        <div class="box"> 
+             <h2>Mensaje DesCifrado</h2>    
+             <textarea class="textarea" rows="11" cols="70" id="msnDescifrado"></textarea><br>     
+        </div>
 
-          <div    class="botones">
+        <div>
           <input  type="number" id="llave" placeholder="clave"  min="0" max="" onkeypress="return event.charCode >= 48" /> 
-          <button class="button" id="cifrar" type="button">Cifrar</button>  
-          <button class="button" id="descifrar" type="button">Descifrar</button>
-          <input  class="button" type="reset" value="Limpiar"> 
-          </div>
+        </div>
+        <div class="botones">
+              <button class="button" id="cifrar" type="button">Cifrar</button>  
+              <button class="button" id="descifrar" type="button">Descifrar</button>
+              <input  class="button" type="reset" value="Limpiar"> 
+        </div>
    
-        </form>
+    </form>
 
-        <br>
-        <h2 > Intrucciones de uso</h2> 
-       
+             <br>
+             <h2 > Intrucciones de uso</h2> 
         
+        <div>
+           <div class="bloque">
+               <h3><span class="blue">1</span></h3>
+               <p>Ingresar un mensaje para Cifrar o Descifrar</p>
+        </div>
+
         <div class="bloque">
-  <h3><span class="blue">1</span></h3>
-  <p>Ingresar un mensaje para Cifrar o Descifrar</p>
-</div>
-
-<div class="bloque">
-  <h3><span class="purpura">2</span></h3>
-  <p>Ingresar un un numero de clave (puede ser cualquier número).</p>
-</div>
+              <h3><span class="purpura">2</span></h3>
+              <p>Ingresar un un numero de clave (puede ser cualquier número).</p>
+        </div>
    
-<div class="bloque">
-<h3><span class="verde">3</span></h3>
-<p>Clic en el Boton Cifrar o Descifrar.</p>
-</div>
+        <div class="bloque">
+              <h3><span class="verde">3</span></h3>
+              <p>Clic en el Boton Cifrar o Descifrar.</p>
+        </div>
 
-<div>
-<img src="tutorial.gif"  width="30" height="30">
+        </div>
 
-</div>
 
-      
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

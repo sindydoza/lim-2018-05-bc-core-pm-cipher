@@ -67,8 +67,8 @@ box .textarea {
       
   border:1px solid #3a85cf;
   padding: 0%;
-  width: 100px;
-  height: 100px;
+  height: 10em;
+  width: 500px;
 }
 
 
