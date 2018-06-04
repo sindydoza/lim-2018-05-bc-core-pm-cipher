@@ -9,13 +9,26 @@ El cifrado César mueve cada letra un determinado número de espacios en el alfa
 ##  Implementacion y Desarrollo
 ### * Modo de funcionamiento y estructura HTML
 Primer diseño de pantalla:
+diseño inicial.
 
 ![Cifrado Cesar](/img/pantalla1.JPG)
 
 Diseño Final.
-
+despues de mostar nustra primera pantalla a otros usuarios, llegamos a la conclucion de que era un poco confusa, asi que decidimos mejorar un poco y esta tuvo un mejor feedback.
 ![Cifrado Cesar](/img/pantalla2.JPG)
+
+### * Principales Usuarios
+Dirigido para adultos jovenes y adultos, pero en realidad creemos que cualquier usuario podria usarlo. para esp manejamos una interfaz amigable y facil de usar.
+
+### * Objetivos de usuarios en relación con el producto
+Que puedan usar la plataforma para cifrar y descifrar cualquier mensaje.
+
+### * Resolucion de Problemas
+Creemos que muchas personas tiene la necesidad de pasar informacion de forma segura, y nuestra plataforma le brinda la tranquilidad de poder reaizar eso.
+
 ## Tablero Canvan 
+
+Aqui se muestra las etapas en las cuales fue dividida el proyecto, en cada etapa finalizada tuvimos feedback de nuestras compañeras.
 
 Prod BL | Sprint | Blocked | Doing| Done|
 -- | -- | --| --| --| 

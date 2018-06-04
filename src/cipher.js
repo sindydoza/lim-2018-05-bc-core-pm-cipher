@@ -10,17 +10,20 @@ window.cipher = {
        if (ascii >= 65 &&  ascii <= 90 ){
         asciir = (ascii - 65 + offset) % 26 +65;
         txt = txt + String.fromCharCode(asciir);
-        console.log(txt);
+
        }
        else if (ascii >= 97 &&  ascii <= 122 ){
         asciir = (ascii - 97 + offset) % 26 +97;
         txt = txt + String.fromCharCode(asciir);
-        console.log(txt);
+       
        }
        else {
         asciir = ascii;
-        txt = txt + String.fromCharCode(asciir);
-        console.log(txt);
+        if(!isNaN(asciir)){
+          txt = txt + String.fromCharCode(asciir);
+          
+          }
+        
        }
     }
     
@@ -47,7 +50,11 @@ window.cipher = {
          }
          else {
           asciir = ascii;
-          txtD = txtD + String.fromCharCode(asciir);
+          if(!isNaN(asciir)){
+            txtD = txtD + String.fromCharCode(asciir);
+            
+            }
+          
          }
       }
     
